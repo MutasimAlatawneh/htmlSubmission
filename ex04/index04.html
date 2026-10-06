@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Registration</title>
 </head>
 <body>
@@ -22,38 +23,11 @@
         <br>
 
         <div>
-            <label for="password">PasswordHere is a complete, beginner-friendly solution for your user registration form (`index04.html`) that meets all the requirements and uses only the authorized elements.
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>User Registration Form</title>
-</head>
-<body>
-
-    <h1>Register</h1>
-
-    <form action="#" method="POST">
-        <div>
-            <label for="fullname">Full Name:</label>
-            <input type="text" id="fullname" name="fullname" required minlength="3">
-        </div>
-
-        <br>
-        <div>
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" required>
-        </div>
-
-        <br>
-        <div>
-            <label for="password">Password:</label>
+            <label for="password">Password:</label><br>
             <input type="password" id="password" name="password" required minlength="8">
         </div>
-
         <br>
+
         <div>
             <label>Role:</label><br>
             <input type="radio" id="role-dev" name="role" value="developer" required>
@@ -62,10 +36,10 @@
             <input type="radio" id="role-designer" name="role" value="designer">
             <label for="role-designer">Designer</label>
         </div>
-
         <br>
+
         <div>
-            <label for="country">Country:</label>
+            <label for="country">Country:</label><br>
             <select id="country" name="country" required>
                 <option value="">--Please choose an option--</option>
                 <option value="us">United States</option>
@@ -73,21 +47,20 @@
                 <option value="uk">United Kingdom</option>
             </select>
         </div>
-
         <br>
+
         <div>
             <label for="bio">Short Bio:</label><br>
             <textarea id="bio" name="bio" rows="4" minlength="10" required></textarea>
         </div>
-
         <br>
 
         <div>
             <input type="checkbox" id="terms" name="terms" required>
             <label for="terms">I agree to the terms and conditions</label>
         </div>
-
         <br>
+
         <div>
             <button type="submit">Register</button>
         </div>
